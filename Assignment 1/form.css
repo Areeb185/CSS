@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #b1b9c7;
+}
+
+.header{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(252, 252, 252);
+    position: fixed;
+    top: 0;
+    height: 2rem;
+    margin: auto;
+    width: 100%;
+    background-color: #ff7e14;
+    text-indent: 50px;
+    letter-spacing: 3px;
+}
+
+#form{
+    max-width: 450px;
+	background: #feeae5;
+	padding: 3rem;
+	margin: 5rem auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	/* border-radius: 10px;
+	border: 6px solid #305A72; */
+}
+
+li{
+    display: block;
+	margin-bottom: 12px;
+	min-height: 40px;
+    display: flex;
+}
+
+.right{
+    width:50%;
+    margin: 1px;
+    padding: 1px;
+    justify-content: right; 
+}
+
+.left{
+    width: 50%;
+    margin: 1px;
+    padding: 1px;
+    justify-content: left;
+}
+
+
+
+.but{
+    justify-items: center;
+    margin: auto;
+}
+
+
+.button {
+ 
+
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.table{
+    border: 1px solid black;
+    margin: 0.25rem auto 5rem auto;
+    padding: 0.5rem;
+    background-color:#feeae5 ;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    border-bottom: 1px solid #ddd;
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #ff7e14;
+}
+
+div.absolute {
+position: absolute;
+top: 80px;
+right: 50px;
+width: 200px;
+height: 100px;
+border: 3px solid #ff7e14;
+}
+
+.float{
+    float: right;
+}
+
+.visible{
+    visibility: visible;
+    }

@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        
+        <div class="header">Student Registration Form</div><br><br>
+        <form id="form" class ="form" method="post">
+            <ul class="ulist">
+              
+              <li>
+              <label class="left" for="name">Name : </label>
+              <input class="right" type="text" id="name" required><br><br>
+              </li>
+
+              <li>
+              <label class="left" for="phone">Phone Number : </label>
+              <input class="right" type="text" id="phone" required><br><br>
+              </li>
+
+              <li>
+              <label class="left" for="dob">Date of Birth : </label>
+              <input class="right" type="date" id="dob"  required><br><br>
+              </li>
+
+              <li>
+              <label class="left" for="address">Address : </label>
+              <textarea class="right" id="address" required cols="20" rows="5"></textarea><br><br><br>
+              </li>
+
+              <li>
+              <div class = " left">Gender : </div>
+              <div class = "right">
+              <input type="radio" name="gender" id="male" value="male">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female">
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="others" value="others">
+              <label for="others">Others</label><br><br>
+              </div>
+              </li>
+
+              <li>
+              <label class ="left">City :</label>
+                      <select class ="right" name="city" id="city">
+                          <option value="">Select City</option>
+                          <option value="Meerut">Meerut</option>
+                          <option value="Muzaffarnagar">Muzaffarnagar</option>
+                          <option value="Delhi">Delhi</option>
+                      </select><br><br>
+              </li>
+
+              <li>
+              <label class = "left">Hobbies:</label>
+              <div>
+              <input type="checkbox" id="hobby1" name="hobbies" value="Reading">
+              <label for="hobby1">Playing Football</label><br>
+              <input type="checkbox" id="hobby2" name="hobbies" value="Travelling">
+              <label for="hobby2">Playing Badminton</label><br>
+              <input type="checkbox" id="hobby3" name="hobbies" value="Cooking">
+              <label for="hobby3">Swimming</label><br><br>
+              </div>  
+              </li>
+
+              <li>
+
+            <div class="but">
+              <input class="button"type="submit" value="Submit">
+              <input class="button" type="reset" value="Reset">
+
+            </div>
+              </li>
+
+            </ul>   
+        </form>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th>SNo</th>
+                <th>Name</th>
+                <th>Phone no</th>
+                <th>Gender</th>
+                <th>City</th>
+                <th>Hobbies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Areeb</td>
+                <td>9898989898</td>
+                <td>Male</td>
+                <td>Meerut</td>
+                <td>Football, Swimming</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Mukul</td>
+                <td>8198989898</td>
+                <td>Male</td>
+                <td>Jaunpur</td>
+                <td>Listening Music, Travelling</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Kunal</td>
+                <td>8484848484</td>
+                <td>Male</td>
+                <td>Gorakhpur</td>
+                <td>Writing, Gaming</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <h1>Positions</h1>
+        <div class="relative">
+        This element has relative position.
+        </div>
+        <div class="absolute">This element has absolute position.</div><br><br>
+
+        <h1>Float</h1>
+        <div>Gringotts floating right</div>
+        <div>
+        <img src="gringotts.jpg" alt="Gringotts" class="float">
+        </div><br><br>
+
+        <h1>Display</h1>
+        <div>Show in form</div><br><br>
+
+        <h1>Visibility</h1>
+        <div class="visible">Hey There, this is a visible text.</div>
+        <div>Collapse used in table.</div>
+
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Demonstration of CSS Concept</title>
+        
+    </head>
+    <link rel="stylesheet" href="demo.css">
+    <body>
+        <center><h1> Comparing Heights in HTML</h1></center>
+
+        <p><b>Px</b> or Pixels are relative to the viewing devices</p>
+        <div>Height - 7px</div>
+        <hr style="height: 7px;" color="black"><br>
+
+        <p class="rem"><b>Rem</b> is the elative to font-size of the root element</p>
+        <div class="rem">Height - 7rem</div>
+        <hr style="height: 7rem;" color="darkcyan"><br>
+        
+        <p><b>em</b> is relative to the font-size of the element (7em means 7 times the size of the current font)</p>
+        <div class="em">Height - 7em</div>
+        <hr style="height: 7em;" color="darkblue"><br>
+
+        <p><b>vh</b> is relative to 1% of the width of the viewport </p>
+        <div class="vh">Height - 7vh</div>
+        <hr style="height: 7vh;" color="crimson"><br>
+
+        <p><b>vw</b> is relative to 1% of the height of the viewport </p>
+        <div class="vw">Height - 7vw</div>
+        <hr style="height: 7vw;" color="cornflowerblue"><br><br>
+
+        <hr size="5px" color="black"><br>
+        <center><h1>Chaining Concept</h1></center>
+        <div class="chain1">This div element has a class chain1.</div>
+        <div class="chain2">This div element has a class chain2.</div>
+        <div class="chain1">This div element has a class chain1.</div><br><br>
+
+        <hr size="5px" color="black"><br>
+        <center><h1>CSS Combinators</h1></center>
+
+        <h2>Child Selector</h2>
+        <div class="child">
+            <h3>Since this is child of div which is having class = child so it will be affected by styling.</h3>
+        </div>
+        <h3>Since this is NOT child of div which is having class = child so it will be affected by styling.</h3>
+
+        <h2>Adjacent Sibling Selector</h2>
+        <div class="adjsib">
+            <h3>Since this is under div element so it will not be affected as we are learning adjacent sibling selector.</h3>
+        </div>
+        <h3>This is the adjacent sibling that is just after the div element so it will be affected.</h3>
+
+
+        <h2>General Sibling Selector</h2>
+        <div class="gensib">
+            <h3>General Sibling Selector applies properties over all the next siblings, so it will not be affected.</h3>
+        </div>
+        <h3>This is will be affected.</h3>
+        <h3>Don't forget about me !!</h3>
+
+        <hr size="5px" color="black"><br>
+        <center><h1>Transition Property</h1></center>
+        <p>It is the change in property values smoothly, over a duration of time.</p>
+        <div class="fig"></div><br>
+
+        <center><h1>Transformation Property</h1></center>
+        <p>It changes property that aren't visible to naked eyes.</p>
+        <div class="fig1"></div>
+
+    </body>
+</html>

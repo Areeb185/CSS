@@ -1,0 +1,77 @@
+.rem{
+    color: darkcyan;
+}
+
+.em{
+    color: darkblue;
+}
+
+.vh{
+    color: crimson;
+}
+
+.vw{
+    color: cornflowerblue; 
+}
+
+
+.chain1, .chain2{
+    color: rgb(218, 74, 74);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    border-bottom: 1px dotted darkblue;
+} 
+
+.child h3{
+    color: rgb(218, 74, 74);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    border-bottom: 1px dotted darkblue;
+}
+
+.adjsib + h3{
+    color: rgb(218, 74, 74);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    border-bottom: 1px dotted darkblue;
+}
+
+.gensib ~ h3{
+    color: rgb(218, 74, 74);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    border-bottom: 1px dotted darkblue;
+}
+
+
+.fig{
+    align-items: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background: rgb(173, 210, 69);
+    transition: width 2s;
+}
+
+.fig:hover{
+    width: 200px;
+    background: rgb(54, 141, 160);
+}
+
+.fig1{
+    align-items: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background: rgb(173, 210, 69);
+    /* transition: width 2s; */
+}
+
+.fig1:hover{
+    width: 200px;
+    background: rgb(54, 141, 160);
+}
